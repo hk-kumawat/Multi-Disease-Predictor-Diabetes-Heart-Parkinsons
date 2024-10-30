@@ -91,7 +91,7 @@ Each model is evaluated using:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/hk-kumawat/multi-disease-predictor.git
+   https://github.com/hk-kumawat/Multi-Disease-Predictor-Diabetes-Heart-Parkinsons.git
    ```
 
 2. **Install dependencies**:
@@ -166,3 +166,9 @@ I’d love to hear from you! Feel free to reach out:
 - [![GitHub](https://img.shields.io/badge/GitHub-hk--kumawat-blue?logo=github)](https://github.com/hk-kumawat) 💻 — Explore my projects and contributions.
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshal%20Kumawat-blue?logo=linkedin)](https://www.linkedin.com/in/harshal-kumawat/) 🌐 — Let’s connect professionally.
 - [![Email](https://img.shields.io/badge/Email-harshalkumawat100@gmail.com-blue?logo=gmail)](mailto:harshalkumawat100@gmail.com) 📧 — Send me an email for any in-depth discussions.
+
+---
+
+### 🌈 Keep shining and coding! 🌈
+
+> "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful." – Albert Schweitzer
