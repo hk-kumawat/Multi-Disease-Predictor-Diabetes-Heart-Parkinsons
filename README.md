@@ -171,4 +171,4 @@ I’d love to hear from you! Feel free to reach out:
 
 ### 🌈 Keep shining and coding! 🌈
 
-> "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful." – Albert Schweitzer
+> Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. – Albert Schweitzer
