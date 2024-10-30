@@ -25,6 +25,20 @@ with st.sidebar:
     )
     st.markdown('<div class="sidebar-footer">Developed by - Harshal Kumawat with 💚</div>', unsafe_allow_html=True)
 
+# Display disclaimer with custom styling
+st.markdown("""
+<div style="
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 0.9em;
+">  <h5 style='color: #333;'>Disclaimer:</h5>
+    The predictions provided by this tool are based on a machine learning model trained on a limited dataset and should be interpreted with caution. While this app aims to support awareness and early indications, it is not a substitute for professional medical testing. For accurate and reliable diagnoses, please consult a healthcare provider and consider lab-based tests. Rely on this tool as an educational aid, not as definitive medical advice.
+</div>
+""", unsafe_allow_html=True)
+    
 # Diabetes Prediction Page
 if selected == 'Diabetes Prediction':
     st.title('🩸Diabetes Prediction')
@@ -165,3 +179,6 @@ if selected == "Parkinsons Prediction":
         parkinsons_prediction = parkinsons_model.predict([user_input])
         parkinsons_diagnosis = "⚠️ Important! You've been diagnosed with Parkinson's disease! But remember, you have the strength to face this challenge! 💪" if parkinsons_prediction[0] == 1 else "🎉 Great news! Your results indicate no signs of Parkinson's! Keep moving and thriving! 🚴‍♀️"
         st.success(parkinsons_diagnosis)
+
+
+
