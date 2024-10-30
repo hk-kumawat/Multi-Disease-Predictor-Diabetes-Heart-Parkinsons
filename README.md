@@ -167,6 +167,8 @@ I’d love to hear from you! Feel free to reach out:
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshal%20Kumawat-blue?logo=linkedin)](https://www.linkedin.com/in/harshal-kumawat/) 🌐 — Let’s connect professionally.
 - [![Email](https://img.shields.io/badge/Email-harshalkumawat100@gmail.com-blue?logo=gmail)](mailto:harshalkumawat100@gmail.com) 📧 — Send me an email for any in-depth discussions.
 
+<br>
+
 ---
 
 ### 🌈 Keep shining and coding! 🌈
