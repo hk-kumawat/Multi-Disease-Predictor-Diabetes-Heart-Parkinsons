@@ -15,57 +15,15 @@ heart_disease_model = pickle.load(open(f'{working_dir}/saved_models/heart_diseas
 parkinsons_model = pickle.load(open(f'{working_dir}/saved_models/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
-# Sidebar for navigation with enhanced visuals, black background, and white text
 with st.sidebar:
-    st.markdown(
-        """
-        <style>
-        .sidebar-title {
-            font-size: 1.8em;
-            color: #ffffff;
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-        .sidebar-footer {
-            position: fixed;
-            bottom: 10px;
-            width: 100%;
-            color: #ffffff;
-            font-weight: bold;
-            text-align: center;
-            font-size: 0.9em;
-        }
-        .css-1d391kg {  /* Custom CSS class for option menu */
-            color: #ffffff !important;
-            font-weight: bold;
-        }
-        </style>
-        """, unsafe_allow_html=True
-    )
-
-    st.markdown('<div class="sidebar-title">🩺 Multiple Disease Prediction System</div>', unsafe_allow_html=True)
-
     selected = option_menu(
-        'Select Disease Prediction:',
-        ['Diabetes Prediction', 'Heart Disease Prediction', "Parkinson's Prediction"],
-        menu_icon='hospital-fill',
+        'Multi Disease Predictor',
+        ['Diabetes Prediction', 'Heart Disease Prediction', 'Parkinsons Prediction'],
+        menu_icon='🩺',
         icons=['activity', 'heart', 'person'],
-        default_index=0,
-        styles={
-            "container": {"background-color": "#000000"},
-            "nav-link": {
-                "font-size": "1.2em",
-                "color": "#ffffff",
-                "text-align": "left",
-                "margin": "10px",
-            },
-            "nav-link-selected": {"background-color": "#333333", "color": "#ffffff"},
-        }
+        default_index=0
     )
-
-    st.markdown('<div class="sidebar-footer">Developed by - Harshal Kumawat with💚</div>', unsafe_allow_html=True)
-
+    st.markdown('<div class="sidebar-footer">Developed by - Harshal Kumawat with 💚</div>', unsafe_allow_html=True)
 
 # Diabetes Prediction Page
 if selected == 'Diabetes Prediction':
@@ -109,7 +67,7 @@ if selected == 'Diabetes Prediction':
     if st.button('🩺Predict Diabetes'):
         user_input = [float(x) for x in [Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]]
         diab_prediction = diabetes_model.predict([user_input])
-        diab_diagnosis = 'The person is diabetic' if diab_prediction[0] == 1 else 'The person is not diabetic'
+        diab_diagnosis = '⚠️ Alert! You are diabetic' if diab_prediction[0] == 1 else '🎉 Great news! Your results indicate that you are not diabetic! Keep up the healthy lifestyle!😄'
         st.success(diab_diagnosis)
 
 # Heart Disease Prediction Page
@@ -148,7 +106,7 @@ if selected == 'Heart Disease Prediction':
     if st.button('🩺Predict Heart Disease'):
         user_input = [float(x) for x in [age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal]]
         heart_prediction = heart_disease_model.predict([user_input])
-        heart_diagnosis = 'The person is having heart disease' if heart_prediction[0] == 1 else 'The person does not have any heart disease'
+        heart_diagnosis = '💔 Alert! You have heart disease. It is time to take action and prioritize your heart health! 🫀' if heart_prediction[0] == 1 else '🎉 Awesome! Your results show a healthy heart! Keep it beating strong with a balanced diet and regular exercise! 💖'
         st.success(heart_diagnosis)
 
 # Parkinson's Prediction Page
@@ -205,5 +163,5 @@ if selected == "Parkinsons Prediction":
     if st.button("🩺Predict Parkinson's"):
         user_input = [float(x) for x in [fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ, DDP, Shimmer, Shimmer_dB, APQ3, APQ5, APQ, DDA, NHR, HNR, RPDE, DFA, spread1, spread2, D2, PPE]]
         parkinsons_prediction = parkinsons_model.predict([user_input])
-        parkinsons_diagnosis = "The person has Parkinson's disease" if parkinsons_prediction[0] == 1 else "The person does not have Parkinson's disease"
+        parkinsons_diagnosis = "⚠️ Important! You've been diagnosed with Parkinson's disease! But remember, you have the strength to face this challenge! 💪" if parkinsons_prediction[0] == 1 else "🎉 Great news! Your results indicate no signs of Parkinson's! Keep moving and thriving! 🚴‍♀️"
         st.success(parkinsons_diagnosis)
