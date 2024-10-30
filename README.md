@@ -121,26 +121,33 @@ Each model is evaluated using:
 
 <br>
 
+
 ## Results🏆
-
-In the **Results** section, you could include some sample output images that demonstrate how the Multi Disease Predictor works for each disease type. Here's a suggested description:
-
----
-
-## Results 🏆
 
 Below are some sample outputs of the **Multi Disease Predictor** for each of the three diseases: diabetes, heart disease, and Parkinson's. These images illustrate the application's interface, showcasing user inputs and the resulting predictions for different health indicators. The output is straightforward, providing users with a clear understanding of their predicted health status.
 
-### Sample Output Images
+<br>
 
-1. **Diabetes Prediction**  
-   - **Description**: This example demonstrates a user's input values for diabetes-related health indicators, with the resulting prediction displayed as either "Diabetes Detected" or "No Diabetes Detected."
+1. **Diabetes Prediction:**  
+   - **Description**: This example demonstrates a user's input values for diabetes-related health indicators, with the resulting prediction displayed as either "Diabetes Detected" or "No Diabetes Detected."<br>
 
-2. **Heart Disease Prediction**  
-   - **Description**: Here, the input values relate to risk factors associated with heart disease, with the application outputting either "Heart Disease Detected" or "No Heart Disease Detected."
+![Screenshot 2024-10-31 025040](https://github.com/user-attachments/assets/a3da41bf-bda1-4bfb-829d-6a609a1a8080)
 
-3. **Parkinson's Disease Prediction**  
+<br>
+<br>
+
+2. **Heart Disease Prediction:**  
+   - **Description**: Here, the input values relate to risk factors associated with heart disease, with the application outputting either "Heart Disease Detected" or "No Heart Disease Detected." <br>
+
+![heart](https://github.com/user-attachments/assets/65d19811-d491-4cbf-8d93-5357c0e742af)
+<br>
+<br>
+
+3. **Parkinson's Disease Prediction:**  
    - **Description**: This output shows the application's prediction for Parkinson's disease, where specific health metrics are analyzed, leading to a result of either "Parkinson's Disease Detected" or "No Parkinson's Disease Detected."
+     <br>
+
+![parkinsons](https://github.com/user-attachments/assets/074fda68-0329-45b1-8e6b-c1dc279f96f0)
 
 
 <br>
@@ -159,7 +166,3 @@ I’d love to hear from you! Feel free to reach out:
 - [![GitHub](https://img.shields.io/badge/GitHub-hk--kumawat-blue?logo=github)](https://github.com/hk-kumawat) 💻 — Explore my projects and contributions.
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshal%20Kumawat-blue?logo=linkedin)](https://www.linkedin.com/in/harshal-kumawat/) 🌐 — Let’s connect professionally.
 - [![Email](https://img.shields.io/badge/Email-harshalkumawat100@gmail.com-blue?logo=gmail)](mailto:harshalkumawat100@gmail.com) 📧 — Send me an email for any in-depth discussions.
-
----
-
-Feel free to customize any parts further, especially the links and images, to fit your project!
