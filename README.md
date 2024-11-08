@@ -13,7 +13,7 @@ Explore the Multi Disease Predictor! 👉🏻 [![Experience It! 🌟](https://im
 
 <br>
 
-- _Below is a preview of the Multi Disease Predictor in action. Input your health parameters to receive predictions. Check out the user-friendly interface and accurate results!_ 👇🏻
+_Below is a preview of the Multi Disease Predictor in action. Input your health parameters to receive predictions. Check out the user-friendly interface and accurate results!_ 👇🏻
 
 ![Screenshot 2024-10-31 021313](https://github.com/user-attachments/assets/60949976-d8af-4b9a-a871-43ff961758de)
 
@@ -128,23 +128,23 @@ Below are some sample outputs of the **Multi Disease Predictor** for each of the
 
 <br>
 
-1. **Diabetes Prediction:**  
-   - **Description**: This example demonstrates a user's input values for diabetes-related health indicators, with the resulting prediction displayed as either "Diabetes Detected" or "No Diabetes Detected."<br>
+### 1.  **Diabetes Prediction:**  
+   This example demonstrates a user's input values for diabetes-related health indicators, with the resulting prediction displayed as either "Diabetes Detected" or "No Diabetes Detected.<br>
 
 ![Screenshot 2024-10-31 025040](https://github.com/user-attachments/assets/a3da41bf-bda1-4bfb-829d-6a609a1a8080)
 
 <br>
 <br>
 
-2. **Heart Disease Prediction:**  
-   - **Description**: Here, the input values relate to risk factors associated with heart disease, with the application outputting either "Heart Disease Detected" or "No Heart Disease Detected." <br>
+### 2. **Heart Disease Prediction:**  
+   Here, the input values relate to risk factors associated with heart disease, with the application outputting either "Heart Disease Detected" or "No Heart Disease Detected. <br>
 
 ![heart](https://github.com/user-attachments/assets/65d19811-d491-4cbf-8d93-5357c0e742af)
 <br>
 <br>
 
-3. **Parkinson's Disease Prediction:**  
-   - **Description**: This output shows the application's prediction for Parkinson's disease, where specific health metrics are analyzed, leading to a result of either "Parkinson's Disease Detected" or "No Parkinson's Disease Detected."
+### 3. **Parkinson's Disease Prediction:**  
+   This output shows the application's prediction for Parkinson's disease, where specific health metrics are analyzed, leading to a result of either "Parkinson's Disease Detected" or "No Parkinson's Disease Detected.
      <br>
 
 ![parkinsons](https://github.com/user-attachments/assets/074fda68-0329-45b1-8e6b-c1dc279f96f0)
