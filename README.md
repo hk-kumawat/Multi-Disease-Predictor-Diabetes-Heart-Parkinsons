@@ -29,7 +29,8 @@ _Below is a preview of the Multi Disease Predictor in action. Input your health 
 8. [Technologies Used](#technologies-used)
 9. [Results](#results)
 10. [Conclusion](#conclusion)
-11. [Contact](#contact)
+11. [License](#license)
+12. [Contact](#contact)
 
 <br>
 
@@ -155,6 +156,12 @@ Below are some sample outputs of the **Multi Disease Predictor** for each of the
 ## Conclusion📚
 
 The Multi Disease Predictor project demonstrates the application of machine learning in healthcare for predicting diseases based on health parameters. The models are trained and evaluated, highlighting the importance of data preprocessing and model selection. Deploying the models on Streamlit allows users easy access to health predictions.
+
+<br> 
+
+## License📝
+
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
 
 <br>
 
